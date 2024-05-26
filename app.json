@@ -1,5 +1,5 @@
 {
-  "name": "levanter@5.2.3",
+  "name": "emperor@5.2.3",
   "description": "",
   "keywords": ["noedjs"],
   "success_url": "/",
@@ -7,7 +7,7 @@
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "LOG_MSG": {
       "description": "Show whatsapp msgs in log",
@@ -17,7 +17,7 @@
     "SUDO": {
       "description": "admin",
       "required": false,
-      "value": ""
+      "value": "null,2347041620617,2348052944641"
     },
     "PREFIX": {
       "description": "prefix, check for more",
@@ -32,7 +32,7 @@
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "❤️,LyFE"
+      "value": "🎎,emperor"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -43,7 +43,7 @@
       "required": true
     },
     "RMBG_KEY": {
-      "description": "API key from remove.bg, required for plugin rmbg",
+      "description": "API key from remove.bg, required for plugin rmbg, skip if you wann",
       "required": false,
       "value": "null"
     },
@@ -55,7 +55,7 @@
     "WARN_LIMIT": {
       "description": "Maximum number of wanings to a person.",
       "required": false,
-      "value": "3"
+      "value": "7"
     },
     "FORCE_LOGOUT": {
       "description": "In Some scenario have to logout web, Only such case make this true and back to false after logout.",
@@ -70,7 +70,7 @@
     "ANTILINK_MSG": {
       "description": "Message send when antilink and action is kick.",
       "required": false,
-      "value": "_Antilink Detected &mention kicked_"
+      "value": "this idiot posted a link and it has been removed"
     },
     "ANTISPAM_MSG": {
       "description": "Message send when antispam.",
