@@ -22,4 +22,5 @@ jobs:
       run: yarn install --network-concurrency 1
       
     - name: Start application
-      run: npm start￼Enter
+      run: npm start
+
